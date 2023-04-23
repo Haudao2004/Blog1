@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include <math.h>
+int tong(int n){
+    int sum = 0;
+    for (int i = 1; i <= n; i++) sum +=i;
+    return sum;
+    
+}
 int main(){
-    int a;
-    printf("nhap vao a:");
-    scanf("%d", &a);
-    if((a>10 && a%2==0)){
-        printf("dung");
-        
-    }
-    else{
-        printf("sai! vui long nhap lai!");
-    }
-    return 0;
+    int x = 10;
+    int kq = tong(x);
+    printf("%d", kq);
+    return 0;    
 
 }
