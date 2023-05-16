@@ -11,7 +11,7 @@ html{
 .container{
     width: 1140px;
     margin: auto;
-    background-color:aliceblue;
+    background-color:rgb(231, 251, 251);
     padding-top: 100px;
 }
 .clesrfix ::after{

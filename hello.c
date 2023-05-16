@@ -7,7 +7,7 @@ int tong(int n){
     
 }
 int main(){
-    int x = 10;
+    int x = 5;
     int kq = tong(x);
     printf("%d", kq);
     return 0;    
